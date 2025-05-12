@@ -1,0 +1,52 @@
+/* Style for the body: font, background color, and text color */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ID selector: styles the main title */
+#main-title {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+}
+
+/* Class selector: styles the intro paragraph */
+.intro {
+    background-color: #fffbe7;
+    padding: 15px;
+    border-left: 5px solid #ffd700;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Another class selector: adds highlight */
+.highlight {
+    font-weight: bold;
+    color: #d35400;
+}
+
+/* Style the image */
+.profile-img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #007bff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Class selector: styles the content box */
+.content-box {
+    border: 2px dashed #888;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #fff;
+    max-width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+}
